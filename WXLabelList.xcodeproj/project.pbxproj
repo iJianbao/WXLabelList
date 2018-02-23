@@ -13,6 +13,13 @@
 		4BE7A67E2040046F00F53E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7A67D2040046F00F53E21 /* Assets.xcassets */; };
 		4BE7A6812040046F00F53E21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7A67F2040046F00F53E21 /* LaunchScreen.storyboard */; };
 		4BE7A6842040046F00F53E21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7A6832040046F00F53E21 /* main.m */; };
+		4BE7A68C2040048400F53E21 /* KKLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7A68B2040048300F53E21 /* KKLabelView.m */; };
+		4BE7A68F204004BA00F53E21 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7A68D204004BA00F53E21 /* NSString+Extension.m */; };
+		4BE7A692204004C500F53E21 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7A691204004C500F53E21 /* UIViewExt.m */; };
+		4BE7A695204004CD00F53E21 /* UIView+IBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7A693204004CD00F53E21 /* UIView+IBExtension.m */; };
+		4BE7A69A204004D900F53E21 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7A697204004D800F53E21 /* UIColor+Extension.m */; };
+		4BE7A69B204004D900F53E21 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7A698204004D800F53E21 /* UIButton+Extension.m */; };
+		4BE7A69E204005B600F53E21 /* UIScreen+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7A69D204005B600F53E21 /* UIScreen+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		4BE7A6802040046F00F53E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BE7A6822040046F00F53E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BE7A6832040046F00F53E21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BE7A68A2040048300F53E21 /* KKLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKLabelView.h; sourceTree = "<group>"; };
+		4BE7A68B2040048300F53E21 /* KKLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKLabelView.m; sourceTree = "<group>"; };
+		4BE7A68D204004BA00F53E21 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		4BE7A68E204004BA00F53E21 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		4BE7A690204004C500F53E21 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		4BE7A691204004C500F53E21 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		4BE7A693204004CD00F53E21 /* UIView+IBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IBExtension.m"; sourceTree = "<group>"; };
+		4BE7A694204004CD00F53E21 /* UIView+IBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IBExtension.h"; sourceTree = "<group>"; };
+		4BE7A696204004D800F53E21 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		4BE7A697204004D800F53E21 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		4BE7A698204004D800F53E21 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		4BE7A699204004D900F53E21 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		4BE7A69C204005B600F53E21 /* UIScreen+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Extension.h"; sourceTree = "<group>"; };
+		4BE7A69D204005B600F53E21 /* UIScreen+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +79,13 @@
 		4BE7A6732040046F00F53E21 /* WXLabelList */ = {
 			isa = PBXGroup;
 			children = (
+				4BE7A69F2040068A00F53E21 /* Category */,
 				4BE7A6742040046F00F53E21 /* AppDelegate.h */,
 				4BE7A6752040046F00F53E21 /* AppDelegate.m */,
 				4BE7A6772040046F00F53E21 /* ViewController.h */,
 				4BE7A6782040046F00F53E21 /* ViewController.m */,
+				4BE7A68A2040048300F53E21 /* KKLabelView.h */,
+				4BE7A68B2040048300F53E21 /* KKLabelView.m */,
 				4BE7A67A2040046F00F53E21 /* Main.storyboard */,
 				4BE7A67D2040046F00F53E21 /* Assets.xcassets */,
 				4BE7A67F2040046F00F53E21 /* LaunchScreen.storyboard */,
@@ -69,6 +93,25 @@
 				4BE7A6832040046F00F53E21 /* main.m */,
 			);
 			path = WXLabelList;
+			sourceTree = "<group>";
+		};
+		4BE7A69F2040068A00F53E21 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4BE7A699204004D900F53E21 /* UIButton+Extension.h */,
+				4BE7A698204004D800F53E21 /* UIButton+Extension.m */,
+				4BE7A696204004D800F53E21 /* UIColor+Extension.h */,
+				4BE7A697204004D800F53E21 /* UIColor+Extension.m */,
+				4BE7A69C204005B600F53E21 /* UIScreen+Extension.h */,
+				4BE7A69D204005B600F53E21 /* UIScreen+Extension.m */,
+				4BE7A690204004C500F53E21 /* UIViewExt.h */,
+				4BE7A691204004C500F53E21 /* UIViewExt.m */,
+				4BE7A694204004CD00F53E21 /* UIView+IBExtension.h */,
+				4BE7A693204004CD00F53E21 /* UIView+IBExtension.m */,
+				4BE7A68E204004BA00F53E21 /* NSString+Extension.h */,
+				4BE7A68D204004BA00F53E21 /* NSString+Extension.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +185,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BE7A695204004CD00F53E21 /* UIView+IBExtension.m in Sources */,
+				4BE7A68F204004BA00F53E21 /* NSString+Extension.m in Sources */,
 				4BE7A6792040046F00F53E21 /* ViewController.m in Sources */,
+				4BE7A69A204004D900F53E21 /* UIColor+Extension.m in Sources */,
+				4BE7A68C2040048400F53E21 /* KKLabelView.m in Sources */,
+				4BE7A69E204005B600F53E21 /* UIScreen+Extension.m in Sources */,
 				4BE7A6842040046F00F53E21 /* main.m in Sources */,
+				4BE7A692204004C500F53E21 /* UIViewExt.m in Sources */,
+				4BE7A69B204004D900F53E21 /* UIButton+Extension.m in Sources */,
 				4BE7A6762040046F00F53E21 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,9 +329,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2SBSG2ES2J;
 				INFOPLIST_FILE = WXLabelList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = feixiang.WXLabelList;
+				PRODUCT_BUNDLE_IDENTIFIER = "-06227061-qq.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -292,9 +343,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2SBSG2ES2J;
 				INFOPLIST_FILE = WXLabelList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = feixiang.WXLabelList;
+				PRODUCT_BUNDLE_IDENTIFIER = "-06227061-qq.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
